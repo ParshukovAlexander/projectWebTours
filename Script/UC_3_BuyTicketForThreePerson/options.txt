@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Parsh\OneDrive\ƒокументы\VuGen\Scripts\project\Script\UC_3_BuyTicketForThreePerson
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\parsh\onedrive\документы\vugen\scripts\project\script\uc_3_buyticketforthreeperson\\logfile.log
+c:\users\parsh\onedrive\документы\vugen\scripts\project\script\uc_3_buyticketforthreeperson\\combined_UC_3_BuyTicketForThreePerson.c
+c:\users\parsh\onedrive\документы\vugen\scripts\project\script\uc_3_buyticketforthreeperson\\pre_cci.c

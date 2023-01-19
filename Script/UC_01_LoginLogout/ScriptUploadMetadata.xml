@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>UC_01_LoginLogout</ScriptName>
+  <Protocol>Web - HTTP/HTML</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="Action.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="UC_01_LoginLogout.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="UC_01_LoginLogout.prm" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="combined_UC_01_LoginLogout.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="196263908440.idx" Filter="1" />
+    <FileEntry Name="19626390844_0iJ.505.idx" Filter="1" />
+    <FileEntry Name="19626390844_0ku.123.idx" Filter="1" />
+    <FileEntry Name="19626390844_1DC.856.idx" Filter="1" />
+    <FileEntry Name="19626390844_2TE.61.idx" Filter="1" />
+    <FileEntry Name="19626390844_3gj.598.idx" Filter="1" />
+    <FileEntry Name="19626390844_AIw.104.idx" Filter="1" />
+    <FileEntry Name="19626390844_aQo.330.idx" Filter="1" />
+    <FileEntry Name="19626390844_b4u.321.idx" Filter="1" />
+    <FileEntry Name="19626390844_BnX.904.idx" Filter="1" />
+    <FileEntry Name="19626390844_bPF.827.idx" Filter="1" />
+    <FileEntry Name="19626390844_btU.712.idx" Filter="1" />
+    <FileEntry Name="19626390844_cf0.509.idx" Filter="1" />
+    <FileEntry Name="19626390844_CJm.39.idx" Filter="1" />
+    <FileEntry Name="19626390844_Cnb.425.idx" Filter="1" />
+    <FileEntry Name="19626390844_deO.678.idx" Filter="1" />
+    <FileEntry Name="19626390844_ISr.43.idx" Filter="1" />
+    <FileEntry Name="19626390844_Ixf.82.idx" Filter="1" />
+    <FileEntry Name="19626390844_Izc.784.idx" Filter="1" />
+    <FileEntry Name="19626390844_J43.981.idx" Filter="1" />
+    <FileEntry Name="19626390844_kkq.231.idx" Filter="1" />
+    <FileEntry Name="19626390844_Koz.571.idx" Filter="1" />
+    <FileEntry Name="19626390844_kXA.802.idx" Filter="1" />
+    <FileEntry Name="19626390844_Lmk.155.idx" Filter="1" />
+    <FileEntry Name="19626390844_mlo.363.idx" Filter="1" />
+    <FileEntry Name="19626390844_Oog.684.idx" Filter="1" />
+    <FileEntry Name="19626390844_qdd.98.idx" Filter="1" />
+    <FileEntry Name="19626390844_R19.158.idx" Filter="1" />
+    <FileEntry Name="19626390844_SnV.528.idx" Filter="1" />
+    <FileEntry Name="19626390844_tss.549.idx" Filter="1" />
+    <FileEntry Name="19626390844_VeA.730.idx" Filter="1" />
+    <FileEntry Name="19626390844_vHh.714.idx" Filter="1" />
+    <FileEntry Name="19626390844_vNL.865.idx" Filter="1" />
+    <FileEntry Name="19626390844_xTc.730.idx" Filter="1" />
+    <FileEntry Name="19626390844_xys.250.idx" Filter="1" />
+    <FileEntry Name="19626390844_XYz.84.idx" Filter="1" />
+    <FileEntry Name="19626390844_Ydg.840.idx" Filter="1" />
+    <FileEntry Name="19626390844_YDt.945.idx" Filter="1" />
+    <FileEntry Name="19626390844_yH0.62.idx" Filter="1" />
+    <FileEntry Name="19626390844_zdN.607.idx" Filter="1" />
+    <FileEntry Name="19626390844_zMa.620.idx" Filter="1" />
+    <FileEntry Name="211715040440.idx" Filter="1" />
+    <FileEntry Name="32312997440.idx" Filter="1" />
+    <FileEntry Name="3231299744_1av.677.idx" Filter="1" />
+    <FileEntry Name="3231299744_2TE.61.idx" Filter="1" />
+    <FileEntry Name="3231299744_4MO.527.idx" Filter="1" />
+    <FileEntry Name="3231299744_8p6.683.idx" Filter="1" />
+    <FileEntry Name="3231299744_9M5.157.idx" Filter="1" />
+    <FileEntry Name="3231299744_A1Q.97.idx" Filter="1" />
+    <FileEntry Name="3231299744_ahW.729.idx" Filter="1" />
+    <FileEntry Name="3231299744_EBW.597.idx" Filter="1" />
+    <FileEntry Name="3231299744_eNY.801.idx" Filter="1" />
+    <FileEntry Name="3231299744_FAQ.713.idx" Filter="1" />
+    <FileEntry Name="3231299744_GKi.711.idx" Filter="1" />
+    <FileEntry Name="3231299744_Gqf.103.idx" Filter="1" />
+    <FileEntry Name="3231299744_lJZ.839.idx" Filter="1" />
+    <FileEntry Name="3231299744_mK7.249.idx" Filter="1" />
+    <FileEntry Name="3231299744_mxA.729.idx" Filter="1" />
+    <FileEntry Name="3231299744_o1L.783.idx" Filter="1" />
+    <FileEntry Name="3231299744_Oqh.855.idx" Filter="1" />
+    <FileEntry Name="3231299744_oZv.903.idx" Filter="1" />
+    <FileEntry Name="3231299744_qiS.81.idx" Filter="1" />
+    <FileEntry Name="3231299744_w1F.619.idx" Filter="1" />
+    <FileEntry Name="3231299744_wEM.83.idx" Filter="1" />
+    <FileEntry Name="3231299744_ZgF.329.idx" Filter="1" />
+    <FileEntry Name="Bookmarks.xml" Filter="1" />
+    <FileEntry Name="Breakpoints.xml" Filter="1" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
+    <FileEntry Name="replay.har" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="shunra.shunra" Filter="1" />
+    <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
+    <FileEntry Name="TransactionsData.db" Filter="1" />
+    <FileEntry Name="UC_01_LoginLogout.c.pickle" Filter="1" />
+    <FileEntry Name="UC_01_LoginLogout.ci" Filter="1" />
+    <FileEntry Name="UC_01_LoginLogout.prm.bak" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="data\" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

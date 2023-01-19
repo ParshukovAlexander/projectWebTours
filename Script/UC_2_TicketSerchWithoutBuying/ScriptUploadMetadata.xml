@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>UC_2_TicketSerchWithoutBuying</ScriptName>
+  <Protocol>Web - HTTP/HTML</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="Action.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="UC_2_TicketSerchWithoutBuying.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="UC_2_TicketSerchWithoutBuying.prm" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="combined_UC_2_TicketSerchWithoutBuying.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="107826502440.idx" Filter="1" />
+    <FileEntry Name="20076960440.idx" Filter="1" />
+    <FileEntry Name="203174459440.idx" Filter="1" />
+    <FileEntry Name="214757799440.idx" Filter="1" />
+    <FileEntry Name="21475779944_DT6.392.idx" Filter="1" />
+    <FileEntry Name="21475779944_gQ1.492.idx" Filter="1" />
+    <FileEntry Name="21475779944_IV8.984.idx" Filter="1" />
+    <FileEntry Name="21475779944_wOH.804.idx" Filter="1" />
+    <FileEntry Name="237987436440.idx" Filter="1" />
+    <FileEntry Name="244695606440.idx" Filter="1" />
+    <FileEntry Name="24469560644_0Ck.19.idx" Filter="1" />
+    <FileEntry Name="24469560644_0oO.213.idx" Filter="1" />
+    <FileEntry Name="24469560644_2kx.467.idx" Filter="1" />
+    <FileEntry Name="24469560644_63h.977.idx" Filter="1" />
+    <FileEntry Name="24469560644_AyO.619.idx" Filter="1" />
+    <FileEntry Name="24469560644_bgP.213.idx" Filter="1" />
+    <FileEntry Name="24469560644_bSx.47.idx" Filter="1" />
+    <FileEntry Name="24469560644_C5g.465.idx" Filter="1" />
+    <FileEntry Name="24469560644_CEe.467.idx" Filter="1" />
+    <FileEntry Name="24469560644_cW2.27.idx" Filter="1" />
+    <FileEntry Name="24469560644_DuX.503.idx" Filter="1" />
+    <FileEntry Name="24469560644_EAK.827.idx" Filter="1" />
+    <FileEntry Name="24469560644_Edh.211.idx" Filter="1" />
+    <FileEntry Name="24469560644_fFF.241.idx" Filter="1" />
+    <FileEntry Name="24469560644_Gkd.967.idx" Filter="1" />
+    <FileEntry Name="24469560644_Gnk.531.idx" Filter="1" />
+    <FileEntry Name="24469560644_I7R.393.idx" Filter="1" />
+    <FileEntry Name="24469560644_i9d.689.idx" Filter="1" />
+    <FileEntry Name="24469560644_ify.111.idx" Filter="1" />
+    <FileEntry Name="24469560644_inG.437.idx" Filter="1" />
+    <FileEntry Name="24469560644_iQC.231.idx" Filter="1" />
+    <FileEntry Name="24469560644_Itn.613.idx" Filter="1" />
+    <FileEntry Name="24469560644_JZn.271.idx" Filter="1" />
+    <FileEntry Name="24469560644_K2e.571.idx" Filter="1" />
+    <FileEntry Name="24469560644_KPK.215.idx" Filter="1" />
+    <FileEntry Name="24469560644_NHK.769.idx" Filter="1" />
+    <FileEntry Name="24469560644_nMs.273.idx" Filter="1" />
+    <FileEntry Name="24469560644_OI3.235.idx" Filter="1" />
+    <FileEntry Name="24469560644_prR.423.idx" Filter="1" />
+    <FileEntry Name="24469560644_QZR.41.idx" Filter="1" />
+    <FileEntry Name="24469560644_RNm.47.idx" Filter="1" />
+    <FileEntry Name="24469560644_Skv.265.idx" Filter="1" />
+    <FileEntry Name="24469560644_uGn.661.idx" Filter="1" />
+    <FileEntry Name="24469560644_uqS.683.idx" Filter="1" />
+    <FileEntry Name="24469560644_uSY.735.idx" Filter="1" />
+    <FileEntry Name="24469560644_yTC.839.idx" Filter="1" />
+    <FileEntry Name="38527252440.idx" Filter="1" />
+    <FileEntry Name="62341699440.idx" Filter="1" />
+    <FileEntry Name="6953925440.idx" Filter="1" />
+    <FileEntry Name="86338740440.idx" Filter="1" />
+    <FileEntry Name="8633874044_dpI.803.idx" Filter="1" />
+    <FileEntry Name="8633874044_drU.391.idx" Filter="1" />
+    <FileEntry Name="8633874044_wFi.983.idx" Filter="1" />
+    <FileEntry Name="8633874044_x6T.491.idx" Filter="1" />
+    <FileEntry Name="Bookmarks.xml" Filter="1" />
+    <FileEntry Name="Breakpoints.xml" Filter="1" />
+    <FileEntry Name="cityArrive.dat" Filter="1" />
+    <FileEntry Name="cityDepart.dat" Filter="1" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="custom_body_variables.txt" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="lrw_custom_body.h" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
+    <FileEntry Name="replay.har" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="setPreffered.dat" Filter="1" />
+    <FileEntry Name="setType.dat" Filter="1" />
+    <FileEntry Name="shunra.shunra" Filter="1" />
+    <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
+    <FileEntry Name="TransactionsData.db" Filter="1" />
+    <FileEntry Name="UC_2_TicketSerchWithoutBuying.c.pickle" Filter="1" />
+    <FileEntry Name="UC_2_TicketSerchWithoutBuying.ci" Filter="1" />
+    <FileEntry Name="UC_2_TicketSerchWithoutBuying.prm.bak" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="data\" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

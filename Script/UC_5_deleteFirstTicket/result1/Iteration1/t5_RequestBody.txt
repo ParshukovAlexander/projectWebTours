@@ -1,0 +1,5 @@
+"1=on&flightID=1280251902-8010-sp&flightID=128002233-1606-sp&flightID=128015194-2363-sp&flightI"
+"D=128018155-3124-sp&flightID=128002233-3913-sp&flightID=1280162-46-sp&flightID=128034457-53926"
+"-sp&flightID=12802484-6173-sp&flightID=1280166709-69499-sp&.cgifields=6&.cgifields=3&.cgifield"
+"s=7&.cgifields=9&.cgifields=2&.cgifields=8&.cgifields=1&.cgifields=4&.cgifields=5&removeFlight"
+"s.x=64&removeFlights.y=8"

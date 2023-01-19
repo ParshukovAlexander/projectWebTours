@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Parsh\OneDrive\ƒокументы\VuGen\Scripts\project\Script\UC_4_registration
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\parsh\onedrive\документы\vugen\scripts\project\script\uc_4_registration\\logfile.log
+c:\users\parsh\onedrive\документы\vugen\scripts\project\script\uc_4_registration\\combined_UC_4_registrationAndCheck.c
+c:\users\parsh\onedrive\документы\vugen\scripts\project\script\uc_4_registration\\pre_cci.c

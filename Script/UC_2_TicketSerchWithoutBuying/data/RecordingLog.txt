@@ -1,0 +1,578 @@
+[API Trapper      (2b70: c2c)] Recording in 64-bit mode: C:\Program Files\Mozilla Firefox\firefox.exe
+[Network Analyzer (2b70:16b8)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2b70:16b8)] Load Network Traffic Analyzers:
+[Network Analyzer (2b70:16b8)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2b70:16b8)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (2b70:16b8)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2b70:16b8)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (2b70:16b8)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (2b70:16b8)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2b70:16b8)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2b70:16b8)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2b70:1ae4)] Address lookup for Parsh = 192.168.31.245
+[Network Analyzer (2b70:16b8)] Establish Listener @ 127.0.0.1:51170
+[Network Analyzer (2b70:16b8)] Address lookup for Parsh = 192.168.31.245
+[Network Analyzer (2b70:16b8)] Request Connection: Remote Server @ 127.0.0.1:51170   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 4 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[API Trapper      ( e78:312c)] Recording in 64-bit mode: C:\Program Files\Mozilla Firefox\firefox.exe
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:16b8)] Address lookup for Parsh = 192.168.31.245
+[Network Analyzer (2b70:16b8)] Request Connection: Remote Server @ 34.107.221.82:80   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (2b70:1ae4)] "GET /success.txt"   
+[Network Analyzer (2b70:1ae4)]   (Sid:  3) Client -> Server @ : 319 bytes (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  3) Server -> Client : 216 bytes  (Service=HTTP)
+[Network Analyzer (2b70:16b8)] Address lookup for Parsh = 192.168.31.245
+[Network Analyzer (2b70:16b8)] Request Connection: Remote Server @ 35.244.181.201:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:2464)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (2b70:2464)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:16b8)] Address lookup for Parsh = 192.168.31.245
+[Network Analyzer (2b70:16b8)] Request Connection: Remote Server @ 34.107.221.82:80   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (2b70:1ae4)] "GET /success.txt"   
+[Network Analyzer (2b70:1ae4)]   (Sid:  5) Client -> Server @ : 319 bytes (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  5) Server -> Client : 216 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:16b8)] Address lookup for Parsh = 192.168.31.245
+[Network Analyzer (2b70:16b8)] Request Connection: Remote Server @ 108.177.14.95:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1bc4)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1bc4)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (2b70:1ae4)] "GET /success.txt"   
+[Network Analyzer (2b70:1ae4)]   (Sid:  5) Client -> Server @ : 319 bytes (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  5) Server -> Client : 216 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[User action                 ] StartTransactionEvent goto_project [Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Net An. Warning  (2b70:16b8)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2b70:16b8)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2b70:16b8)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (2b70:16b8)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Net An. Warning  (2b70:16b8)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2b70:16b8)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2b70:16b8)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (2b70:16b8)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:16b8)] Address lookup for Parsh = 192.168.31.245
+[Network Analyzer (2b70:16b8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:16b8)] Address lookup for Parsh = 192.168.31.245
+[Network Analyzer (2b70:16b8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (2b70:1ae4)] "GET /WebTours/"   
+[Network Analyzer (2b70:1ae4)]   (Sid:  8) Client -> Server @ : 362 bytes (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  8) Server -> Client : 665 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (2b70:1ae4)] "GET /WebTours/header.html"   
+[Network Analyzer (2b70:1ae4)]   (Sid:  8) Client -> Server @ : 415 bytes (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  8) Server -> Client : 1008 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:16b8)] Address lookup for Parsh = 192.168.31.245
+[Network Analyzer (2b70:16b8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (2b70:1ae4)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (2b70:1ae4)]   (Sid:  9) Client -> Server @ : 426 bytes (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (2b70:1ae4)] "GET /WebTours/images/hp_logo.png"   
+[Network Analyzer (2b70:1ae4)]   (Sid:  8) Client -> Server @ : 343 bytes (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  8) Server -> Client : 899 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:16b8)] Address lookup for Parsh = 192.168.31.245
+[Network Analyzer (2b70:16b8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (2b70:1ae4)] "GET /WebTours/images/webtours.png"   
+[Network Analyzer (2b70:1ae4)]   (Sid: 10) Client -> Server @ : 344 bytes (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid: 10) Server -> Client : 4488 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  9) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  9) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (2b70:1ae4)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (2b70:1ae4)]   (Sid: 10) Client -> Server @ : 467 bytes (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (2b70:1ae4)] "GET /WebTours/home.html"   
+[Network Analyzer (2b70:1ae4)]   (Sid:  9) Client -> Server @ : 463 bytes (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  9) Server -> Client : 1660 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid: 10) Server -> Client : 1756 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (2b70:1ae4)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer (2b70:1ae4)]   (Sid: 10) Client -> Server @ : 375 bytes (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid: 10) Server -> Client : 977 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (2b70:1ae4)] "GET /favicon.ico"   
+[Network Analyzer (2b70:1ae4)]   (Sid: 10) Client -> Server @ : 302 bytes (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid: 10) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:16b8)] Address lookup for Parsh = 192.168.31.245
+[Network Analyzer (2b70:16b8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  8) Connection Terminated (by Server)
+[Network Analyzer (2b70:1ae4)]   (Sid:  9) Connection Terminated (by Server)
+[Network Analyzer (2b70:1ae4)]   (Sid: 10) Connection Terminated (by Server)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid: 11) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent goto_project [User action                 ] StartTransactionEvent login [Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:16b8)] Address lookup for Parsh = 192.168.31.245
+[Network Analyzer (2b70:16b8)] Request Connection: Remote Server @ 34.120.208.123:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (2b70:16b8)] Address lookup for Parsh = 192.168.31.245
+[Network Analyzer (2b70:16b8)] Request Connection: Remote Server @ 34.120.208.123:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:305c)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:305c)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (2b70:1ae4)] "GET /success.txt"   
+[Network Analyzer (2b70:1ae4)]   (Sid:  5) Client -> Server @ : 319 bytes (Service=HTTP)
+[Network Analyzer (2b70:39dc)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:39dc)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2b70:1ae4)]   (Sid:  5) Server -> Client : 216 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:16b8)] Address lookup for Parsh = 192.168.31.245
+[Network Analyzer (2b70:16b8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (2b70:1ae4)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (2b70:1ae4)]   (Sid: 14) Client -> Server @ : 647 bytes (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid: 14) Server -> Client : 861 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid: 14) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (2b70:1ae4)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (2b70:1ae4)]   (Sid: 14) Client -> Server @ : 586 bytes (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:16b8)] Address lookup for Parsh = 192.168.31.245
+[Network Analyzer (2b70:16b8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (2b70:1ae4)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (2b70:1ae4)]   (Sid: 15) Client -> Server @ : 581 bytes (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid: 15) Server -> Client : 1156 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid: 15) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid: 14) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid: 14) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (2b70:1ae4)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer (2b70:1ae4)]   (Sid: 14) Client -> Server @ : 507 bytes (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (2b70:1ae4)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer (2b70:1ae4)]   (Sid: 15) Client -> Server @ : 509 bytes (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid: 15) Server -> Client : 1031 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (2b70:1ae4)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer (2b70:1ae4)]   (Sid: 15) Client -> Server @ : 507 bytes (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid: 15) Server -> Client : 986 bytes  (Service=HTTP)
+[Network Analyzer (2b70:16b8)] Address lookup for Parsh = 192.168.31.245
+[Network Analyzer (2b70:16b8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (2b70:1ae4)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer (2b70:1ae4)]   (Sid: 16) Client -> Server @ : 507 bytes (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:16b8)] Address lookup for Parsh = 192.168.31.245
+[Network Analyzer (2b70:1ae4)]   (Sid: 14) Server -> Client : 1024 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid: 16) Server -> Client : 1050 bytes  (Service=HTTP)
+[Network Analyzer (2b70:16b8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[User action                 ] EndTransactionEvent login [Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid: 15) Connection Terminated (by Server)
+[Network Analyzer (2b70:1ae4)]   (Sid: 14) Connection Terminated (by Server)
+[Network Analyzer (2b70:1ae4)]   (Sid: 16) Connection Terminated (by Server)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid: 17) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent search_ticket [Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:16b8)] Address lookup for Parsh = 192.168.31.245
+[Network Analyzer (2b70:16b8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:16b8)] Address lookup for Parsh = 192.168.31.245
+[Network Analyzer (2b70:16b8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (2b70:1ae4)] "GET /cgi-bin/welcome.pl?page=search"   
+[Network Analyzer (2b70:1ae4)]   (Sid: 19) Client -> Server @ : 600 bytes (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid: 19) Server -> Client : 839 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid: 19) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (2b70:1ae4)] "GET /cgi-bin/nav.pl?page=menu&in=flights"   
+[Network Analyzer (2b70:1ae4)]   (Sid: 19) Client -> Server @ : 603 bytes (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:16b8)] Address lookup for Parsh = 192.168.31.245
+[Network Analyzer (2b70:16b8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (2b70:1ae4)] "GET /cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer (2b70:1ae4)]   (Sid: 20) Client -> Server @ : 604 bytes (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid: 19) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid: 19) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (2b70:1ae4)] "GET /WebTours/images/in_flights.gif"   
+[Network Analyzer (2b70:1ae4)]   (Sid: 19) Client -> Server @ : 513 bytes (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:16b8)] Address lookup for Parsh = 192.168.31.245
+[Network Analyzer (2b70:16b8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (2b70:1ae4)] "GET /WebTours/images/home.gif"   
+[Network Analyzer (2b70:1ae4)]   (Sid: 21) Client -> Server @ : 507 bytes (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid: 21) Server -> Client : 987 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid: 19) Server -> Client : 1024 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid: 20) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid: 20) Server -> Client : 286 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (2b70:1ae4)] "GET /WebTours/images/button_next.gif"   
+[Network Analyzer (2b70:1ae4)]   (Sid: 20) Client -> Server @ : 515 bytes (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid: 20) Server -> Client : 1056 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer (2b70:1ae4)]   (Sid: 21) Connection Terminated (by Server)
+[Network Analyzer (2b70:1ae4)]   (Sid: 19) Connection Terminated (by Server)
+[Network Analyzer (2b70:1ae4)]   (Sid: 20) Connection Terminated (by Server)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:16b8)] Address lookup for Parsh = 192.168.31.245
+[Network Analyzer (2b70:16b8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (2b70:1ae4)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (2b70:1ae4)]   (Sid: 22) Client -> Server @ : 907 bytes (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid: 22) Server -> Client : 2705 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid: 22) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid: 22) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent search_ticket [Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[User action                 ] StartTransactionEvent logout [Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:16b8)] Address lookup for Parsh = 192.168.31.245
+[Network Analyzer (2b70:16b8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:16b8)] Address lookup for Parsh = 192.168.31.245
+[Network Analyzer (2b70:16b8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (2b70:1ae4)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (2b70:1ae4)]   (Sid: 24) Client -> Server @ : 601 bytes (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid: 24) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid: 24) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (2b70:1ae4)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (2b70:1ae4)]   (Sid: 24) Client -> Server @ : 464 bytes (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:16b8)] Address lookup for Parsh = 192.168.31.245
+[Network Analyzer (2b70:16b8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (2b70:1ae4)] "GET /WebTours/home.html"   
+[Network Analyzer (2b70:1ae4)]   (Sid: 25) Client -> Server @ : 561 bytes (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid: 25) Server -> Client : 195 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid: 24) Server -> Client : 1743 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid: 24) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[User action                 ] EndTransactionEvent logout [Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (2b70:1ae4)]   (Sid:  2) Client -> Server @ : 1 bytes 
