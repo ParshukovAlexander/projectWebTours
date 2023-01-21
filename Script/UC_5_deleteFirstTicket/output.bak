@@ -1,16 +1,21 @@
-Virtual User Script started at: 19.01.2023 13:32:47
+Error: Exception was raised when calling event-notify Vuser function in extension NVReportExt.dll: System Exceptions: EXCEPTION_ACCESS_VIOLATION
+Virtual User Script started at: 20.01.2023 15:32:56
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 2020.0.0 for Windows 10; build 793 (ноя 27 2019 19:51:20)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
 Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0  	[MsgId: MMSG-26988]
-Runtime Settings file: "C:\Users\Parsh\OneDrive\Документы\VuGen\Scripts\UC_5_deleteFirstTicket\\default.cfg"  	[MsgId: MMSG-27141]
+Runtime Settings file: "C:\Users\Parsh\OneDrive\Документы\VuGen\Scripts\project\Script\UC_5_deleteFirstTicket\\default.cfg"  	[MsgId: MMSG-27141]
+Warning: Failed to get NV emulation handle.
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
 Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
 Starting action Action.
+Warning: Failed to get NV emulation handle.
 Action.c(3): Notify: Transaction "allTime" started.
+Action.c(3): Warning: Failed to get NV emulation handle.
 Action.c(5): Notify: Transaction "goto_project" started.
+Action.c(5): Warning: Failed to get NV emulation handle.
 Action.c(7): web_set_sockets_option started  	[MsgId: MMSG-26355]
 Action.c(7): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
 Action.c(9): web_add_auto_header("DNT") started  	[MsgId: MMSG-26355]
@@ -30,14 +35,15 @@ Action.c(30): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=hom
 Action.c(30): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(30): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
 Action.c(30): Registered web_reg_find successful for "Text=<title>Web Tours</title>" (count=3)  	[MsgId: MMSG-26364]
-Action.c(30): web_url("WebTours") was successful, 10080 body bytes, 2377 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(40): Notify: Transaction "goto_project" ended with a "Pass" status (Duration: 0.3733 Wasted Time: 0.0927).
+Action.c(30): web_url("WebTours") was successful, 10078 body bytes, 2377 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(40): Notify: Transaction "goto_project" ended with a "Pass" status (Duration: 0.3413 Wasted Time: 0.1296).
 Action.c(42): Notify: Transaction "login" started.
+Action.c(42): Warning: Failed to get NV emulation handle.
 Action.c(44): web_remove_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
 Action.c(44): Previous automatically added web header for "Upgrade-Insecure-Requests" removed  	[MsgId: MMSG-26587]
 Action.c(44): web_remove/revert_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
-Action.c(46): Think time - Waiting 5.00 seconds (according to limit).
-Action.c(46): lr_think_time: 5.00 seconds (recorded think time was 21.00 seconds).
+Action.c(46): Think time - Waiting 5,00 seconds (according to limit).
+Action.c(46): lr_think_time: 5,00 seconds (recorded think time was 21,00 seconds).
 Action.c(48): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(48): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
 Action.c(51): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
@@ -49,13 +55,15 @@ Action.c(51): Found resource "http://localhost:1080/WebTours/images/in_home.gif"
 Action.c(51): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
 Action.c(51): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
 Action.c(51): web_submit_data("login.pl") was successful, 5781 body bytes, 2053 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(68): Notify: Transaction "login" ended with a "Pass" status (Duration: 5,2856 Think Time: 5,0020 Wasted Time: 0,0076).
+Action.c(68): Notify: Transaction "login" ended with a "Pass" status (Duration: 5.1996 Think Time: 5.0092 Wasted Time: 0.0074).
 Action.c(70): Notify: Transaction "delete" started.
+Action.c(70): Warning: Failed to get NV emulation handle.
 Action.c(72): Notify: Transaction "goto_itinerary" started.
+Action.c(72): Warning: Failed to get NV emulation handle.
 Action.c(74): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
 Action.c(74): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
-Action.c(77): Think time - Waiting 5,00 seconds (according to limit).
-Action.c(77): lr_think_time: 5,00 seconds (recorded think time was 14,00 seconds).
+Action.c(77): Think time - Waiting 5.00 seconds (according to limit).
+Action.c(77): lr_think_time: 5.00 seconds (recorded think time was 14.00 seconds).
 Action.c(79): web_url("Itinerary Button") started  	[MsgId: MMSG-26355]
 Action.c(79): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
 Action.c(79): Detected non-resource "http://localhost:1080/cgi-bin/itinerary.pl" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
@@ -65,10 +73,10 @@ Action.c(79): Found resource "http://localhost:1080/WebTours/images/home.gif" in
 Action.c(79): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(79): Found resource "http://localhost:1080/WebTours/images/cancelreservation.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
 Action.c(79): Found resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
-Action.c(79): web_url("Itinerary Button") was successful, 17293 body bytes, 1921 header bytes, 52 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(89): Think time - Waiting 5,00 seconds (according to limit).
-Action.c(89): lr_think_time: 5,00 seconds (recorded think time was 8,00 seconds).
-Action.c(91): Notify: Transaction "goto_itinerary" ended with a "Pass" status (Duration: 10,3290 Think Time: 10,0283 Wasted Time: 0,0066).
+Action.c(79): web_url("Itinerary Button") was successful, 105603 body bytes, 1921 header bytes, 227 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(89): Think time - Waiting 5.00 seconds (according to limit).
+Action.c(89): lr_think_time: 5.00 seconds (recorded think time was 8.00 seconds).
+Action.c(91): Notify: Transaction "goto_itinerary" ended with a "Pass" status (Duration: 10.2539 Think Time: 10.0021 Wasted Time: 0.0123).
 Action.c(93): Error: Cannot start transaction "delete". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.
 Action.c(95): web_reg_save_param started  	[MsgId: MMSG-26355]
 Action.c(95): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
@@ -79,15 +87,16 @@ Action.c(105): Submitting form to "http://localhost:1080/cgi-bin/itinerary.pl", 
 Action.c(105): Resource "http://localhost:1080/WebTours/images/cancelreservation.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(105): Resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(105): Registered web_reg_find successful for "Text={flightID}"  	[MsgId: MMSG-26362]
-Action.c(105): web_submit_form("itinerary.pl") was successful, 11028 body bytes, 256 header bytes, 27 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(113): Notify: Transaction "delete" ended with a "Pass" status (Duration: 10,6924 Think Time: 10,0283 Wasted Time: 0,0135).
-Action.c(115): Think time - Waiting 5,00 seconds (according to limit).
-Action.c(115): lr_think_time: 5,00 seconds (recorded think time was 29,00 seconds).
+Action.c(105): web_submit_form("itinerary.pl") was successful, 99340 body bytes, 256 header bytes, 203 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(113): Notify: Transaction "delete" ended with a "Pass" status (Duration: 10.4419 Think Time: 10.0021 Wasted Time: 0.0192).
+Action.c(115): Think time - Waiting 5.00 seconds (according to limit).
+Action.c(115): lr_think_time: 5.00 seconds (recorded think time was 29.00 seconds).
 Action.c(118): Notify: Transaction "logout" started.
+Action.c(118): Warning: Failed to get NV emulation handle.
 Action.c(120): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
 Action.c(120): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
-Action.c(123): Think time - Waiting 5,00 seconds (according to limit).
-Action.c(123): lr_think_time: 5,00 seconds (recorded think time was 32,00 seconds).
+Action.c(123): Think time - Waiting 5.00 seconds (according to limit).
+Action.c(123): lr_think_time: 5.00 seconds (recorded think time was 32.00 seconds).
 Action.c(125): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(125): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
 Action.c(128): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
@@ -97,11 +106,12 @@ Action.c(128): Retrieving data from cache for "http://localhost:1080/WebTours/ho
 Action.c(128): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(128): Registered web_reg_find successful for "Text=A Session ID has been created and loaded into a cookie called MSO." (count=1)  	[MsgId: MMSG-26364]
 Action.c(128): web_url("SignOff Button") was successful, 2175 body bytes, 584 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(138): Notify: Transaction "logout" ended with a "Pass" status (Duration: 5,2908 Think Time: 5,0134 Wasted Time: 0,0055).
-Action.c(140): Notify: Transaction "allTime" ended with a "Pass" status (Duration: 27,4142 Think Time: 25,0760 Wasted Time: 0,1192).
+Action.c(138): Notify: Transaction "logout" ended with a "Pass" status (Duration: 5.1917 Think Time: 5.0027 Wasted Time: 0.0053).
+Action.c(140): Notify: Transaction "allTime" ended with a "Pass" status (Duration: 26,2749 Think Time: 25,0192 Wasted Time: 0,1615).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...
 Starting action vuser_end.
+Warning: Failed to get NV emulation handle.
 Ending action vuser_end.
 Vuser Terminated.

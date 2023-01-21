@@ -1,0 +1,15 @@
+Error: missing newline in C:\Users\Parsh\OneDrive\Документы\VuGen\Scripts\project\Script\UC_2_TicketSerchWithoutBuying\..\params\cityArraive.dat	[MsgId: MERR-13874]
+Error: missing newline in C:\Users\Parsh\OneDrive\Документы\VuGen\Scripts\project\Script\UC_2_TicketSerchWithoutBuying\..\params\cityDepart.dat	[MsgId: MERR-13874]
+Error: missing newline in C:\Users\Parsh\OneDrive\Документы\VuGen\Scripts\params\seatType.dat	[MsgId: MERR-13874]
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Action.c(45): Previous automatically added web header for "Upgrade-Insecure-Requests" removed  	[MsgId: MMSG-26587]
+Action.c(45): web_remove/revert_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(47): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(47): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(50): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(50): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(50): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(50): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://localhost:1080/cgi-bin/login.pl?intro=true"  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

@@ -41,6 +41,17 @@
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv3yg.575.log" Filter="1" />
+    <FileEntry Name="mdrv9Ot.629.log" Filter="1" />
+    <FileEntry Name="mdrvkCM.703.log" Filter="1" />
+    <FileEntry Name="mdrvkCV.375.log" Filter="1" />
+    <FileEntry Name="mdrvQT2.939.log" Filter="1" />
+    <FileEntry Name="mdrvRAL.125.log" Filter="1" />
+    <FileEntry Name="mdrvTjF.201.log" Filter="1" />
+    <FileEntry Name="mdrvwzy.435.log" Filter="1" />
+    <FileEntry Name="mdrvXQG.127.log" Filter="1" />
+    <FileEntry Name="mdrvYYd.455.log" Filter="1" />
+    <FileEntry Name="mdrvzCv.795.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
@@ -49,7 +60,6 @@
     <FileEntry Name="replay.har" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
-    <FileEntry Name="shunra.shunra" Filter="1" />
     <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
     <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UC_5_deleteFirstTicket.c.pickle" Filter="1" />

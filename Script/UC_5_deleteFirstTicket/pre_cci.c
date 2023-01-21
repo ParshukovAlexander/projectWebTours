@@ -2669,8 +2669,6 @@ Action()
 		"LAST");
 
 	lr_end_transaction("login",2);
-
-	lr_start_transaction("delete");
 	
 		lr_start_transaction("goto_itinerary");
 

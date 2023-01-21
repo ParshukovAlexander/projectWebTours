@@ -52,7 +52,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="allTime__*delimiter*__goto_project__*delimiter*__login__*delimiter*__delete__*delimiter*__goto_itinerary__*delimiter*__delete__*delimiter*__logout"
+Order="allTime__*delimiter*__goto_project__*delimiter*__login__*delimiter*__goto_itinerary__*delimiter*__delete__*delimiter*__logout"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -62,6 +62,6 @@ ActiveRunName=result1
 allTime=
 goto_project=
 login=
-delete=
 goto_itinerary=
+delete=
 logout=

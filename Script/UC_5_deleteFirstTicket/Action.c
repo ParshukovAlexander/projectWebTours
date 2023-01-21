@@ -66,8 +66,6 @@ Action()
 		LAST);
 
 	lr_end_transaction("login",LR_AUTO);
-
-	lr_start_transaction("delete");
 	
 		lr_start_transaction("goto_itinerary");
 

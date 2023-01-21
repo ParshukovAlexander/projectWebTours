@@ -1,0 +1,36 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(79): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(79): Found resource "http://localhost:1080/WebTours/images/cancelreservation.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+Action.c(79): Found resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+Action.c(79): web_url("Itinerary Button") was successful, 20888 body bytes, 1921 header bytes, 59 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(89): Think time - Waiting 5,00 seconds (according to limit).	[MsgId: MMSG-15946]
+Action.c(89): lr_think_time: 5,00 seconds (recorded think time was 8,00 seconds).	[MsgId: MMSG-15947]
+Action.c(91): Notify: Transaction "goto_itinerary" ended with a "Pass" status (Duration: 10,1868 Think Time: 10,0242).	[MsgId: MMSG-16872]
+Action.c(93): Error: Cannot start transaction "delete". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Action.c(79): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(79): Found resource "http://localhost:1080/WebTours/images/cancelreservation.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+Action.c(79): Found resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+Action.c(79): web_url("Itinerary Button") was successful, 13685 body bytes, 1921 header bytes, 51 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(89): Think time - Waiting 5,00 seconds (according to limit).	[MsgId: MMSG-15946]
+Action.c(89): lr_think_time: 5,00 seconds (recorded think time was 8,00 seconds).	[MsgId: MMSG-15947]
+Action.c(91): Notify: Transaction "goto_itinerary" ended with a "Pass" status (Duration: 10,1642 Think Time: 10,0208).	[MsgId: MMSG-16872]
+Action.c(93): Error: Cannot start transaction "delete". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+Action.c(79): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(79): Found resource "http://localhost:1080/WebTours/images/cancelreservation.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+Action.c(79): Found resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+Action.c(79): web_url("Itinerary Button") was successful, 8948 body bytes, 1921 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(89): Think time - Waiting 5,00 seconds (according to limit).	[MsgId: MMSG-15946]
+Action.c(89): lr_think_time: 5,00 seconds (recorded think time was 8,00 seconds).	[MsgId: MMSG-15947]
+Action.c(91): Notify: Transaction "goto_itinerary" ended with a "Pass" status (Duration: 10,1726 Think Time: 10,0225).	[MsgId: MMSG-16872]
+Action.c(93): Error: Cannot start transaction "delete". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.	[MsgId: MERR-16993]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
