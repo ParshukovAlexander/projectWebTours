@@ -1,16 +1,21 @@
-Virtual User Script started at: 19.01.2023 14:41:25
+Error: Exception was raised when calling event-notify Vuser function in extension NVReportExt.dll: System Exceptions: EXCEPTION_ACCESS_VIOLATION
+Virtual User Script started at: 23.01.2023 13:38:18
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 2020.0.0 for Windows 10; build 793 (ноя 27 2019 19:51:20)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
 Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0  	[MsgId: MMSG-26988]
 Runtime Settings file: "C:\Users\Parsh\OneDrive\Документы\VuGen\Scripts\project\Script\UC_01_LoginLogout\\default.cfg"  	[MsgId: MMSG-27141]
+Warning: Failed to get NV emulation handle.
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
 Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
 Starting action Action.
-Action.c(3): Notify: Transaction "allTime" started.
-Action.c(5): Notify: Transaction "goto_project" started.
+Warning: Failed to get NV emulation handle.
+Action.c(3): Notify: Transaction "transaction_loginLogout" started.
+Action.c(3): Warning: Failed to get NV emulation handle.
+Action.c(5): Notify: Transaction "go_to_home_page" started.
+Action.c(5): Warning: Failed to get NV emulation handle.
 Action.c(7): web_set_sockets_option started  	[MsgId: MMSG-26355]
 Action.c(7): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
 Action.c(9): web_add_auto_header("DNT") started  	[MsgId: MMSG-26355]
@@ -30,43 +35,48 @@ Action.c(30): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=hom
 Action.c(30): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(30): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
 Action.c(30): Registered web_reg_find successful for "Text=<title>Web Tours</title>" (count=3)  	[MsgId: MMSG-26364]
-Action.c(30): web_url("WebTours") was successful, 10080 body bytes, 2377 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(40): Notify: Transaction "goto_project" ended with a "Pass" status (Duration: 0.3437 Wasted Time: 0.1079).
-Action.c(42): Notify: Transaction "login" started.
-Action.c(44): web_remove_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
-Action.c(44): Previous automatically added web header for "Upgrade-Insecure-Requests" removed  	[MsgId: MMSG-26587]
-Action.c(44): web_remove/revert_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
-Action.c(46): web_reg_find started  	[MsgId: MMSG-26355]
-Action.c(46): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
-Action.c(49): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
-Action.c(49): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
-Action.c(49): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
-Action.c(49): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
-Action.c(49): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
-Action.c(49): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
-Action.c(49): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
-Action.c(49): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
-Action.c(49): web_submit_data("login.pl") was successful, 5781 body bytes, 2049 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(66): Notify: Transaction "login" ended with a "Pass" status (Duration: 0,2368 Wasted Time: 0,0078).
-Action.c(68): Notify: Transaction "logout" started.
-Action.c(70): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
-Action.c(70): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
-Action.c(73): Think time - Waiting 5,00 seconds (according to limit).
-Action.c(73): lr_think_time: 5,00 seconds (recorded think time was 32,00 seconds).
-Action.c(75): web_reg_find started  	[MsgId: MMSG-26355]
-Action.c(75): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
-Action.c(78): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
-Action.c(78): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
-Action.c(78): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
-Action.c(78): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
-Action.c(78): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-Action.c(78): Registered web_reg_find successful for "Text=A Session ID has been created and loaded into a cookie called MSO." (count=1)  	[MsgId: MMSG-26364]
-Action.c(78): web_url("SignOff Button") was successful, 2176 body bytes, 584 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(88): Notify: Transaction "logout" ended with a "Pass" status (Duration: 5,2269 Think Time: 5,0077 Wasted Time: 0,0051).
-Action.c(90): Notify: Transaction "allTime" ended with a "Pass" status (Duration: 6,1367 Think Time: 5,0077 Wasted Time: 0,1209).
+Action.c(30): web_url("WebTours") was successful, 10074 body bytes, 2377 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(40): Notify: Transaction "go_to_home_page" ended with a "Pass" status (Duration: 0.2881 Wasted Time: 0.0970).
+Action.c(42): Think time - Waiting 5.00 seconds (according to limit).
+Action.c(42): lr_think_time: 5.00 seconds (recorded think time was 32.00 seconds).
+Action.c(44): Notify: Transaction "login" started.
+Action.c(44): Warning: Failed to get NV emulation handle.
+Action.c(46): web_remove_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(46): Previous automatically added web header for "Upgrade-Insecure-Requests" removed  	[MsgId: MMSG-26587]
+Action.c(46): web_remove/revert_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(48): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(48): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(51): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(51): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(51): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(51): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(51): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(51): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(51): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(51): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+Action.c(51): web_submit_data("login.pl") was successful, 5781 body bytes, 2053 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(68): Notify: Transaction "login" ended with a "Pass" status (Duration: 0.2056 Wasted Time: 0.0088).
+Action.c(70): Think time - Waiting 5.00 seconds (according to limit).
+Action.c(70): lr_think_time: 5.00 seconds (recorded think time was 32.00 seconds).
+Action.c(72): Notify: Transaction "logout" started.
+Action.c(72): Warning: Failed to get NV emulation handle.
+Action.c(74): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(74): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(78): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(78): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(81): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+Action.c(81): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(81): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(81): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+Action.c(81): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(81): Registered web_reg_find successful for "Text=A Session ID has been created and loaded into a cookie called MSO." (count=1)  	[MsgId: MMSG-26364]
+Action.c(81): web_url("SignOff Button") was successful, 2176 body bytes, 584 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(91): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0,1555 Wasted Time: 0,0054).
+Action.c(93): Notify: Transaction "transaction_loginLogout" ended with a "Pass" status (Duration: 10,7546 Think Time: 10,0153 Wasted Time: 0,1112).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...
 Starting action vuser_end.
+Warning: Failed to get NV emulation handle.
 Ending action vuser_end.
 Vuser Terminated.

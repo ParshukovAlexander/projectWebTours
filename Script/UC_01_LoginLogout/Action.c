@@ -1,8 +1,8 @@
 Action()
 {
-	lr_start_transaction("allTime");
+	lr_start_transaction("transaction_loginLogout");
 
-	lr_start_transaction("goto_project");
+	lr_start_transaction("go_to_home_page");
 
 	web_set_sockets_option("SSL_VERSION", "AUTO");
 
@@ -37,7 +37,9 @@ Action()
 		"Mode=HTML", 
 		LAST);
 
-	lr_end_transaction("goto_project",LR_AUTO);
+	lr_end_transaction("go_to_home_page",LR_AUTO);
+	
+	lr_think_time(32);
 
 	lr_start_transaction("login");
 
@@ -64,13 +66,14 @@ Action()
 		LAST);
 
 	lr_end_transaction("login",LR_AUTO);
+	
+	lr_think_time(32);
 
 	lr_start_transaction("logout");
 
 	web_add_header("Upgrade-Insecure-Requests", 
 		"1");
 
-	lr_think_time(32);
 
 	web_reg_find("Text=A Session ID has been created and loaded into a cookie called MSO.",
 		LAST);
@@ -87,7 +90,7 @@ Action()
 
 	lr_end_transaction("logout",LR_AUTO);
 	
-		lr_end_transaction("allTime",LR_AUTO);
+	lr_end_transaction("transaction_loginLogout",LR_AUTO);
 
 	return 0;
 }

@@ -32,7 +32,6 @@
     <FileEntry Name="replay.har" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
-    <FileEntry Name="shunra.shunra" Filter="1" />
     <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UC_6_ViewItinerary.c.pickle" Filter="1" />
     <FileEntry Name="UC_6_ViewItinerary.ci" Filter="1" />

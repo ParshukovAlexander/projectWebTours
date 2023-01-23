@@ -2603,9 +2603,9 @@ vuser_init()
 # 1 "Action.c" 1
 Action()
 {
-	lr_start_transaction("allTime");
+	lr_start_transaction("transaction_buy_ticket_for_three_person");
 
-	lr_start_transaction("goto_project");
+	lr_start_transaction("go_to_home_page");
 
 	web_set_sockets_option("SSL_VERSION", "AUTO");
 
@@ -2642,15 +2642,17 @@ Action()
 
 
 
-	lr_end_transaction("goto_project",2);
+	lr_end_transaction("go_to_home_page",2);
+	
+	
+	lr_think_time(18);
+	
 
 	lr_start_transaction("login");
 	
 
 	(web_remove_auto_header("Upgrade-Insecure-Requests", "ImplicitGen=Yes", "LAST"));
 
-	lr_think_time(18);
-	
 	web_reg_find("Text=User password was correct",
 		"LAST");
 
@@ -2675,13 +2677,12 @@ Action()
 
 	lr_end_transaction("login",2);
 	
+	lr_think_time(13);
 	
 	lr_start_transaction("goto_flights");
 
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
-
-	lr_think_time(13);
 
 	web_url("Search Flights Button", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=search", 
@@ -2693,9 +2694,10 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
-	lr_think_time(10);
 	
 	lr_end_transaction("goto_flights",2);
+	
+	lr_think_time(6);
 	
 	lr_start_transaction("search_flight");
 	
@@ -2736,10 +2738,11 @@ Action()
 		"Name=.cgifields", "Value=seatType", "ENDITEM", 
 		"Name=.cgifields", "Value=seatPref", "ENDITEM", 
 		"LAST");
-
-	lr_think_time(6);
 	
 	lr_end_transaction("search_flight",2);
+	
+	lr_think_time(31);
+	
 	lr_start_transaction("search_ticket");
 	
 	
@@ -2765,13 +2768,13 @@ Action()
 		"LAST");
 
 	(web_remove_auto_header("Upgrade-Insecure-Requests", "ImplicitGen=Yes", "LAST"));
-
-	lr_think_time(31);
 	
 	web_reg_find("Text=Reservation Made!",
 		"LAST");
 	
 	lr_end_transaction("search_ticket",2);
+	
+	lr_think_time(18);
 	
 	lr_start_transaction("reservation");
 	
@@ -2809,31 +2812,16 @@ Action()
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 		
-
-	lr_think_time(18);
-	
-
-	web_submit_data("reservations.pl_4", 
-		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
-		"Method=POST", 
-		"TargetFrame=", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/reservations.pl", 
-		"Snapshot=t11.inf", 
-		"Mode=HTML", 
-		"ITEMDATA", 
-		"Name=Book Another.x", "Value=86", "ENDITEM", 
-		"Name=Book Another.y", "Value=10", "ENDITEM", 
-		"LAST");
-
 	lr_end_transaction("reservation",2);
 	
-		lr_start_transaction("goto_itinerary");
+	lr_think_time(14);
+	
+	lr_start_transaction("goto_itinerary");
 
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 
-	lr_think_time(14);
+
 	
 	web_reg_find("Text=Itinerary",
 		"LAST");
@@ -2848,11 +2836,9 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
-	lr_think_time(8);
-
 	lr_end_transaction("goto_itinerary",2);
 	
-	lr_end_transaction("allTime",2);
+	lr_end_transaction("transaction_buy_ticket_for_three_person",2);
 
 
 	return 0;

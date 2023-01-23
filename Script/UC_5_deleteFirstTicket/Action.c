@@ -1,8 +1,8 @@
 Action()
 {
-	lr_start_transaction("allTime");
+	lr_start_transaction("transaction_delete_first_ticket");
 
-	lr_start_transaction("goto_project");
+	lr_start_transaction("go_to_home_page");
 
 	web_set_sockets_option("SSL_VERSION", "AUTO");
 
@@ -37,13 +37,15 @@ Action()
 		"Mode=HTML", 
 		LAST);
 
-	lr_end_transaction("goto_project",LR_AUTO);
+	lr_end_transaction("go_to_home_page",LR_AUTO);
+	
+	
+	lr_think_time(21);
 
 	lr_start_transaction("login");
 
 	web_revert_auto_header("Upgrade-Insecure-Requests");
 
-	lr_think_time(21);
 	
 	web_reg_find("Text=User password was correct",
 		LAST);
@@ -67,12 +69,21 @@ Action()
 
 	lr_end_transaction("login",LR_AUTO);
 	
-		lr_start_transaction("goto_itinerary");
+		lr_think_time(14);
+		
+	lr_start_transaction("goto_itinerary");
 
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
-
-	lr_think_time(14);
+	
+	  web_reg_save_param_regexp(
+    "ParamName=RK",
+    "RegExp=<input type=\"hidden\" name=\"flightID\" value=\"(.+?)\"  />",
+    SEARCH_FILTERS,
+    LAST);
+	
+	web_reg_find("Text=Itinerary",
+		LAST);
 
 	web_url("Itinerary Button", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
@@ -83,21 +94,15 @@ Action()
 		"Snapshot=t8.inf", 
 		"Mode=HTML", 
 		LAST);
-
-	lr_think_time(8);
 	
 	lr_end_transaction("goto_itinerary",LR_AUTO);
+	
+	lr_think_time(8);
 		
 	lr_start_transaction("delete");
 	
-	web_reg_save_param("flightID",
-		"LB=",
-		"RB=",
-		"Ord=1",
-		LAST);
-	
 	web_reg_find("Fail=Found",
-		"Text={flightID}",
+		"Text/IC={RK}",
 		LAST);
 
 	web_submit_form("itinerary.pl", 
@@ -112,13 +117,10 @@ Action()
 
 	lr_think_time(29);
 
-
-		lr_start_transaction("logout");
+	lr_start_transaction("logout");
 
 	web_add_header("Upgrade-Insecure-Requests", 
 		"1");
-
-	lr_think_time(32);
 
 	web_reg_find("Text=A Session ID has been created and loaded into a cookie called MSO.",
 		LAST);
@@ -135,7 +137,7 @@ Action()
 
 	lr_end_transaction("logout",LR_AUTO);
 	
-	lr_end_transaction("allTime",LR_AUTO);
+	lr_end_transaction("transaction_delete_first_ticket",LR_AUTO);
 	
 	return 0;
 }

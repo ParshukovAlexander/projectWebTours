@@ -1,4 +1,4 @@
 "firstName=sasha&lastName=parshukov&address1=mira&address2=33&pass1=sasha+parshukov&pass2=ivan+"
 "Parshukov&pass3=Oleg+Parshukov&creditCard=123456&expDate=123&oldCCOption=&numPassengers=3&seat"
-"Type=First&seatPref=None&outboundFlight=450%3B1165%3B01%2F19%2F2023&advanceDiscount=0&returnFl"
-"ight=&JSFormSubmit=off&buyFlights.x=38&buyFlights.y=2&.cgifields=saveCC"
+"Type=Business&seatPref=None&outboundFlight=190%3B287%3B01%2F23%2F2023&advanceDiscount=0&return"
+"Flight=&JSFormSubmit=off&buyFlights.x=38&buyFlights.y=2&.cgifields=saveCC"

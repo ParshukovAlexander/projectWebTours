@@ -2602,9 +2602,9 @@ vuser_init()
 Action()
 {
 
-	lr_start_transaction("allTime");
+	lr_start_transaction("transaction_ticket_search_without_buying");
 	
-	lr_start_transaction("goto_project");
+	lr_start_transaction("go_to_home_page");
 
 	web_set_sockets_option("SSL_VERSION", "AUTO");
 
@@ -2613,6 +2613,9 @@ Action()
 
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
+
+		web_reg_find("Text=<title>Web Tours</title>",
+		"LAST");
 
  
 	web_reg_save_param_attrib(
@@ -2625,9 +2628,6 @@ Action()
 		"IgnoreRedirections=No",
 		"RequestUrl=*/nav.pl*",
 		"LAST");
-		
-		web_reg_find("Text=<title>Web Tours</title>",
-		"LAST");
 
 	web_url("WebTours", 
 		"URL=http://localhost:1080/WebTours/", 
@@ -2639,7 +2639,7 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
-	lr_end_transaction("goto_project",2);
+	lr_end_transaction("go_to_home_page",2);
 
 	lr_start_transaction("login");
 
@@ -2667,7 +2667,7 @@ Action()
 
 	lr_end_transaction("login",2);
 
-
+	lr_think_time(46);
 	
 	lr_start_transaction("goto_flights");
 
@@ -2675,7 +2675,6 @@ Action()
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 
-	lr_think_time(46);
 
 	web_url("Search Flights Button", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=search", 
@@ -2689,14 +2688,26 @@ Action()
 
 	lr_end_transaction("goto_flights",2);
 	
+	lr_think_time(13);
+	
 	lr_start_transaction("search_flight");
 
-	
-	lr_think_time(13);
 	
 	web_reg_find("Text=<title>Flight Selections</title>",
 		"LAST");
 	
+	 
+	web_reg_save_param_attrib(
+		"ParamName=outboundFlight",
+		"TagName=input",
+		"Extract=value",
+		"Name=outboundFlight",
+		"Type=radio",
+		"SEARCH_FILTERS",
+		"IgnoreRedirections=No",
+		"LAST");
+
+
 	web_submit_data("reservations.pl", 
 		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
 		"Method=POST", 
@@ -2722,9 +2733,12 @@ Action()
 		"LAST");
 
 
+
 	lr_end_transaction("search_flight",2);
 	
-		lr_start_transaction("search_ticket");
+		lr_think_time(31);
+	
+	lr_start_transaction("search_ticket");
 	
 	
 	web_reg_find("Text=<title>Flight Reservation</title>",
@@ -2749,18 +2763,16 @@ Action()
 		"LAST");
 
 	(web_remove_auto_header("Upgrade-Insecure-Requests", "ImplicitGen=Yes", "LAST"));
-
-	lr_think_time(31);
 	
 	
 	lr_end_transaction("search_ticket",2);
+	
+		lr_think_time(32);
 	
 		lr_start_transaction("logout");
 
 	web_add_header("Upgrade-Insecure-Requests", 
 		"1");
-
-	lr_think_time(32);
 
 	web_reg_find("Text=A Session ID has been created and loaded into a cookie called MSO.",
 		"LAST");
@@ -2778,7 +2790,7 @@ Action()
 	lr_end_transaction("logout",2);
 	
 
-	lr_end_transaction("allTime",2);
+	lr_end_transaction("transaction_ticket_search_without_buying",2);
 
 
 	return 0;
